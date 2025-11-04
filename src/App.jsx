@@ -1,5 +1,6 @@
 import React from 'react'
-import LiquidEtherfrom from './components/LiquidEther.jsx'
+import LiquidEther from './components/LiquidEther.jsx'
+import FluidGlass from './components/FluidGlass.jsx'
 
 export default function App() {
   return (
@@ -9,9 +10,12 @@ export default function App() {
 
       {/* Foreground content */}
       <main className="app-content">
-        <h1 className="app-title">Hello, React Bits 👋</h1>
+        {/* <FluidGlass 
+          mode="bar"
+        /> */}
+        <h1 className="app-title">Vive Malazan</h1>
         <p className="app-subtitle">
-          This is a minimal GitHub Pages site using a React Bits background.
+          I'll add stuff here at some point but now i've had enough and go read malazan 
         </p>
       </main>
     </div>
